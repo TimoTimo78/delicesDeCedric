@@ -50,7 +50,7 @@ function CartDropdown({ show, handleOnClick }) {
                 <span className="text-muted">quantity: {item.quantity}</span>
                 <br />
                 <span className="emphasis">
-                  ${(item.price * item.quantity).toFixed(2)}
+                  €{(item.price * item.quantity).toFixed(2)}
                 </span>
               </div>
             </li>
